@@ -5,10 +5,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 	font-size:16px;
 	font-weight:normal;
-	/* Same as above */
 	font: normal 16px Arial, Helvetica, sans-serif;
-
-	line-height:1.5em;
+    line-height:1.5em;
 	margin:0;
 }
 #top-div{
@@ -40,15 +38,18 @@ border: black solid;
     padding: 10px;
     width: 100%;
 }
-#navbar a{
-font-size: 20px;
-color: white;
-text-decoration: none;
-}
-#navbar a :first-child{
-    padding-left: 100px;
-}
-
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 22px;
+  }
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
 #main-img{
     position: absolute;
     opacity: 0.4;
@@ -217,7 +218,7 @@ position: absolute;
 	text-align: center;
 	padding:20px;
 	margin-top:1990px;
-    width: 100%;
+    width: 97.2%;  
 
 
 }
