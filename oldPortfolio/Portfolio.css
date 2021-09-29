@@ -1,0 +1,136 @@
+body{
+    
+    background-color: #082032;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	/* Same as above */
+	font: normal 16px Arial, Helvetica, sans-serif;
+
+	line-height:1.5em;
+	margin:0;
+}
+#navbar{
+    margin-top: 120px;
+    padding: 20px;
+    background-color:#334756 ;   
+}
+#navbar ul{
+    display: inline;
+    align-items: right;
+}
+#navbar li{
+    display: inline;
+    padding: 10px;
+    width: 100%;
+}
+#navbar a{
+
+font-size: 20px;
+color: white;
+text-decoration: none;
+}
+#navbar a :first-child{
+    padding-left: 100px;
+}
+.intro{
+    margin-top: 20px;
+    background-color: #333;
+    float:left;
+	width:60%;
+	padding:40px;
+	box-sizing: border-box;
+    height: 527px;
+}
+#heading-name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: 500px;
+    line-height:0.6em;
+    padding-left: 60px;
+    padding-bottom: 0%;
+
+}
+#name{
+    font-size: 70px;
+    font-weight: 500px;
+    line-height:1.0em;
+    color: #F3BDA1;
+}
+#discription{
+    margin-top:0;
+    padding: 0;
+    padding-left: 60px;
+    
+}
+
+#sidebar{
+	float:right;
+	width:40%;
+	background-color:#333;
+	color:#fff;
+	padding:10px;
+    margin-top: 20px;
+	box-sizing: border-box;
+}
+.profile{
+    width: 100%;
+    border: black solid;
+    margin: 0;
+
+
+}
+
+    
+
+#PROFILE{
+    text-align: center;
+    margin-top: 700px;
+    
+    color: #F3BDA1;
+    padding: 20px;
+    background-color:#334756;
+
+}
+
+#Aboutme{
+    
+    width:30%;
+    border: black solid;
+   
+}
+#imgPro{
+   
+    width:30%;
+    border: black solid;
+   
+}
+#details{
+    
+    width:20%; 
+    border: black solid;
+    
+}
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:150px;
+
+
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
