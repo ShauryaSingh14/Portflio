@@ -5,7 +5,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 	font-size:16px;
 	font-weight:normal;
-	font: normal 16px Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     line-height:1.5em;
 	margin:0;
 }
@@ -42,14 +42,8 @@ a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 32px;
   }
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-  
 #main-img{
     position: absolute;
     opacity: 0.4;
@@ -156,20 +150,21 @@ a:hover {
 .text{
     color: #F05454;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 .column-left{
     flex: 1;
     width: 50%;
     padding: 90px;
-    
+   
     color: #DDDDDD;
 }
 .column-right{
     margin-top: 25px;
     width: 50%;
+  
 
 }
 .info{
@@ -209,6 +204,48 @@ a:hover {
     width: 95%;
     background-color: #F05454;
 }
+#Contact{
+    position: absolute;
+    width: 100%;
+    background-color: #cacdd6;
+    height: 100%;
+    margin-top:1945px;
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.fw-normal{
+    font-size: 50px;
+    color:#F05454 ;
+}
+.title {
+    width: 200px;
+    padding: 6px 20px;
+    background-color: #30475E;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 30px 0 60px 30px;
+    font-size: 28px;
+}
+.timeline {
+    position: relative;
+    display: block;
+    list-style: none;
+    padding-right: 20px;
+
+  }
+  
+.details {
+    background-color: #f4f5f8;
+    margin: 9px;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 25px;
+    line-height: 0.0001em;
+    height: 99px;
+}
+.edu-headings{
+    margin-top: 15px;
+}
 #main-footer{
 
 position: absolute;
@@ -216,11 +253,24 @@ position: absolute;
 	color:#fff;
 	text-align: center;
 	padding:20px;
-	margin-top:1990px;
+	margin-top:2790px;
     width: 97.2%;  
 
 }
 
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 15px;
+}
+a:hover {
+    color: #F05454;
+    background-color: transparent;
+    text-decoration: none;
+}
+#edu{
+    clip-path: circle(50.0% at 50% 50%);
+}
 @media(max-width:600px){
 	#main{
 		width:100%;
