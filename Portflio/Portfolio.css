@@ -31,18 +31,29 @@ border: black solid;
 }
 #navbar ul{
     display: inline;
-    align-items: right;
 }
 #navbar li{
     display: inline;
     padding: 10px;
     width: 100%;
 }
-a:link {
+#navbar a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
-    font-size: 32px;
+    font-size: 22px;
+  }
+  
+  #navbar a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
   }
 #main-img{
     position: absolute;
@@ -233,6 +244,18 @@ a:link {
     padding-right: 20px;
 
   }
+
+.timeline li::before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    margin: 6px 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #888;
+}
   
 .details {
     background-color: #f4f5f8;
@@ -242,6 +265,7 @@ a:link {
     font-size: 25px;
     line-height: 0.0001em;
     height: 99px;
+
 }
 .edu-headings{
     margin-top: 15px;
@@ -258,12 +282,12 @@ position: absolute;
 
 }
 
-a:link {
+.details a:link {
     background-color: transparent;
     text-decoration: none;
     font-size: 15px;
 }
-a:hover {
+.details a:hover {
     color: #F05454;
     background-color: transparent;
     text-decoration: none;
