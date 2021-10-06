@@ -39,6 +39,7 @@ nav a:hover{
     color: red;
 }
 .profile{
+    animation: slidingDown  1s ease 0s 1 alternate both;
     color: white;
     padding-top: 90px;
     font-size: 30px;
@@ -110,9 +111,9 @@ nav a:hover{
     width: 50%;
     height: 100%;
    
-    
 }
 .profile-img{
+
     position: relative;
     display: block;
     margin: 90px;
@@ -131,6 +132,7 @@ nav a:hover{
     background-color: #222831;
     display: flex;
     overflow: hidden;
+    animation: slidingRight  5s ease 0s 1 alternate both;
 }
 .text{
     color: #F05454;
@@ -292,4 +294,24 @@ position: absolute;
 		width:100%;
 		float:none;
 	}
+}
+@keyframes slidingDown {
+    0%{
+        top: -300px;
+        
+    }
+    100%{
+        top: 90px;
+     
+    }
+}
+@keyframes slidingRight {
+    0%{
+        left:  -300px;
+        
+    }
+    100%{
+        left: 00px;
+     
+    }
 }
